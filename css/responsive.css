@@ -1,0 +1,1060 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1366px) {
+
+    h1 {
+        font-size: 14rem;
+        padding-left: 10%;
+    }
+
+    h1:nth-child(2) {
+        padding-left: 23%;
+    }
+
+    h2 {
+        font-size: 4rem;
+        padding-left: 64%;
+    }
+
+    .cli {
+        font-size: 2.5rem;
+        padding-left: 88%;
+        margin: 1rem 0;
+    }
+
+    header nav {
+        width: 40%;
+        z-index: 99;
+    }
+
+    header nav ul {
+        width: 38%;
+
+    }
+
+    header nav ul li a {
+        font-size: 1.3rem;
+    }
+
+    .m1,
+    .m2,
+    .m3,
+    .m4 {
+        width: 70%;
+        display: flex;
+        margin: 3rem auto;
+        justify-content: space-between;
+    }
+
+    .work {
+        width: 90%;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        width: 95%;
+        margin: 1rem 0.5rem;
+    }
+
+    .bb {
+        width: 80%;
+        height: 70vh;
+    }
+
+    .pho-inner {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .foot-txt a {
+        width: 20%;
+        font-size: 1.2rem;
+    }
+
+    .foot-img img {
+        max-width: 70%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    h1 {
+        font-size: 13rem;
+        padding-left: 10%;
+
+    }
+
+    h1:nth-child(2) {
+        padding-left: 25%;
+    }
+
+    h2 {
+        padding-left: 63%;
+    }
+
+
+    .m1,
+    .m2,
+    .m3,
+    .m4 {
+        width: 75%;
+        display: flex;
+        margin: 3rem auto;
+        justify-content: space-between;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        width: 80%;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        width: 50%;
+        height: auto;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 2px solid #fff;
+        padding: 2rem;
+    }
+
+    .bb {
+        width: 70%;
+        height: 70vh;
+    }
+
+    .pho-inner {
+        width: 80%;
+        margin: 2px auto;
+    }
+
+
+    .gotop {
+        font-size: 2.5rem;
+        bottom: 1rem;
+        right: 2rem;
+    }
+
+
+    .work {
+        width: 75%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        color: #fff;
+        width: 30%;
+        height: auto;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 2px solid #fff;
+        padding: 2rem;
+    }
+
+    .work img {
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .work p {
+        margin: 1rem auto;
+        line-height: 1.5rem;
+    }
+
+    .work h4 {
+        margin: 0;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    h1 {
+        font-size: 10rem;
+        padding-left: 5%;
+    }
+
+    h1:nth-child(2) {
+        padding-top: 0;
+        padding-left: 30%;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding-left: 68%;
+    }
+
+    .cli {
+        font-size: 2rem;
+        padding-left: 90%;
+
+    }
+
+    /* 동영상 메인메뉴영역 */
+
+    header nav {
+        width: 40%;
+        z-index: 99;
+    }
+
+    header nav ul {
+        width: 38%;
+
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+
+    /* 도형영역 */
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+
+    /* 도형  */
+    .m1,
+    .m2,
+    .m3,
+    .m4 {
+        width: 70%;
+        display: flex;
+        margin: 3rem auto;
+        justify-content: space-between;
+    }
+
+    .m1 .box1 {
+        width: 9rem;
+        height: 9rem;
+    }
+
+    .boxzip .txt {
+        margin: 2.5rem 0;
+    }
+
+    .boxzip .txt h3 {
+        font-size: 2.3rem;
+        text-align: left;
+
+    }
+
+    .boxzip .txt p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .box2 {
+        width: 10rem;
+        height: 10rem;
+        border-top: 2rem solid tomato;
+        border-left: 2rem solid orange;
+        border-bottom: 2rem solid salmon;
+        border-right: 2rem solid lightgreen;
+    }
+
+
+    .box3 {
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .load {
+        height: 3rem;
+        width: 9rem;
+        border-radius: 2rem;
+
+    }
+
+    .load::after {
+        content: '';
+        position: absolute;
+        width: 9rem;
+        height: 3rem;
+    }
+
+    .box4 {
+        width: 14rem;
+        height: 9rem;
+    }
+
+    @keyframes up_down {
+
+        0%,
+        100% {
+            height: 1rem;
+        }
+
+        50% {
+            height: 9rem;
+        }
+    }
+
+    .txtt {
+        padding-top: 40px;
+    }
+
+    .txtt h3 {
+        color: #fff;
+        font-size: 3rem;
+        max-width: 90%;
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+
+    .work {
+        width: 70%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        color: #fff;
+        width: 45%;
+        height: auto;
+        margin: 1rem;
+        border-radius: 1rem;
+        border: 2px solid #fff;
+        padding: 2rem;
+    }
+
+    .work img {
+        max-width: 40%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .work p {
+        margin: 1rem auto;
+        line-height: 1.5rem;
+    }
+
+    .work h4 {
+        margin: 0;
+        font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .bb {
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .pho-inner img {
+        width: 13rem;
+        height: 13rem;
+    }
+
+    .pho-inner .photo,
+    .photo2 {
+        width: 75%;
+        margin: 3rem auto;
+    }
+
+    .close-btn {
+        font-size: 30px;
+    }
+
+    .foot-txt {
+        font-size: 2rem;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+    }
+
+    .foot-txt a {
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+    .foot-img img {
+        max-width: 70%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    .gotop {
+        font-size: 2rem;
+        bottom: 1rem;
+        right: 2rem;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .bg-video-content {
+        max-width: 820px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg-video{
+        padding-top: 66%;
+
+    }
+
+    header,
+    .head2 {
+        width: 100%;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 8rem;
+        padding-left: 5%;
+    }
+
+    h1:nth-child(2) {
+        padding-top: 0;
+        padding-left: 30%;
+    }
+
+    h2 {
+        font-size: 3rem;
+        padding-left: 60%;
+    }
+
+    .cli {
+        font-size: 1.3rem;
+        padding-left: 95%;
+
+    }
+
+    /* 동영상 메인메뉴영역  */
+
+    header nav {
+        width: 43%;
+        z-index: 99;
+    }
+
+    header nav ul {
+        width: 40%;
+
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+
+    .m1,
+    .m2,
+    .m3,
+    .m4 {
+        width: 70%;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: space-between;
+    }
+
+    .box2 {
+        width: 9rem;
+        height: 9rem;
+        border-top: 2rem solid tomato;
+        border-left: 2rem solid orange;
+        border-bottom: 2rem solid salmon;
+        border-right: 2rem solid lightgreen;
+    }
+
+    .box4 {
+        width: 12rem;
+        height: 8rem;
+    }
+
+    .box4 .bar{
+        width: 1rem;
+    }
+
+    @keyframes up_down {
+
+        0%,
+        100% {
+            height: 1rem;
+        }
+
+        50% {
+            height: 9rem;
+        }
+    }
+
+
+    .boxzip .txt h3 {
+        font-size: 1.8rem;
+    }
+
+    .boxzip .txt p {
+        font-size: 0.9rem;
+    }
+
+    /* 스킬영역 */
+    .work {
+        width: 75%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        color: #fff;
+        width: 44%;
+        height: auto;
+
+    }
+
+    .work img {
+        max-width: 35%;
+        height: auto;
+    }
+
+    .bb {
+        width: 75%;
+        margin: 0 auto;
+        height: auto;
+    }
+
+    .pho-inner img {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .pho-inner .photo,
+    .photo2 {
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+}
+
+@media screen and (max-width: 660px) {
+
+    .bg-video{
+        padding-top: 70%;
+    }
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 10%;
+        text-align: right;
+    }
+
+    header nav ul li {
+        padding: 2px 0;
+        display: inline-block;
+    }
+
+    nav ul li:first-child {
+        display: block;
+    }
+
+    /* 메뉴 숨기기 */
+    nav ul li:not(:first-child) {
+        display: none;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: all 0.3s ease;
+    }
+
+    /* 메뉴 열림 애니메이션 */
+    nav ul li.show {
+        display: block;
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    nav ul li.active {
+        color: red;
+    }
+    h1 {
+        font-size: 7rem;
+        padding-left: 10%;
+
+    }
+    
+    h1:nth-child(2) {
+        padding-top: 0%;
+        padding-left: 20%;
+    }
+    
+    h2 {
+        font-size: 2rem;
+        padding-left: 67%;
+    
+    }
+    
+    .cli {
+        font-size: 1.5rem;
+        padding-left: 50%;
+        color: rgb(37, 37, 37);
+
+    }
+
+
+    .m2,
+    .m3,
+    .m4 {
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+
+    .m1,
+    .m3 {
+        width: 80%;
+        flex-direction: column;
+
+    }
+
+    .m2,
+    .m4 {
+        width: 80%;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .box2,
+    .box4 {
+        margin-left: auto;
+        order: 1;
+    }
+
+    .boxzip .m2 .txt h3 {
+        text-align: right;
+        order: 0;
+    }
+
+    .boxzip .m2 .txt p {
+        text-align: right;
+        font-size: 0.9rem;
+    }
+
+    .boxzip .m4 .txt h3 {
+        text-align: right;
+    }
+
+    .boxzip .m4 .txt p {
+        text-align: right;
+    }
+
+    .box4 .bar {
+        width: 1.2rem;
+    }
+
+    .box4 {
+        width: 13rem;
+        height: 9rem;
+    }
+
+    @keyframes up_down {
+
+        0%,
+        100% {
+            height: 1rem;
+        }
+
+        50% {
+            height: 9rem;
+        }
+    }
+
+    .work {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        margin: 0.5rem auto;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        width: 43%;
+        height: auto;
+    }
+
+    .work h4 {
+        margin: 0;
+        font-size: 1.5rem;
+        padding-bottom: 2rem;}
+    
+    
+
+
+    .pho-inner {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+
+
+    .foot-img img {
+        max-width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+
+    .bg-video{
+        padding-top: 125%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: 5%;
+        text-align: right;
+    }
+
+    header nav ul li {
+        padding: 2px 0;
+        display: inline-block;
+    }
+
+    nav ul li:first-child {
+        display: block;
+    }
+
+
+    @keyframes bounce {
+        0% {
+            transform: translateY(0);
+        }
+
+        100% {
+            transform: translateY(-10px);
+        }
+    }
+
+    h1 {
+        font-size: 5rem;
+        font-weight: bold;
+        padding-top: 10%;
+    }
+
+    h1:nth-child(2) {
+        padding-left: 13%;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding-left: 47%;
+    }
+
+    .cli {
+        font-size: 2rem;
+        padding: 10%;
+        padding-left: 50%;
+
+    }
+
+    .m2,
+    .m3,
+    .m4 {
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+
+    .m1,
+    .m3 {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .m2,
+    .m4 {
+        width: 70%;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .box2,
+    .box4 {
+        margin-left: auto;
+    }
+
+    .boxzip .m2 .txt h3 {
+        text-align: right;
+    }
+
+    .boxzip .m2 .txt p {
+        text-align: right;
+        font-size: 0.9rem;
+    }
+
+    .boxzip .m4 .txt h3 {
+        text-align: right;
+    }
+
+    .boxzip .m4 .txt p {
+        text-align: right;
+    }
+
+    .box4 .bar {
+        width: 1rem;
+    }
+
+    .box4 {
+        width: 13rem;
+        height: 9rem;
+    }
+
+    @keyframes up_down {
+
+        0%,
+        100% {
+            height: 1rem;
+        }
+
+        50% {
+            height: 9rem;
+        }
+    }
+
+    .boxzip .txt h3{
+        font-size: 1.7rem;
+    }
+
+    .boxzip .txt p {
+        font-size: 0.7rem;
+    }
+
+    .boxzip .m2 .txt p{
+        font-size: 0.7rem;
+    }
+
+    .line-text {
+        font-size: 5rem;
+    }
+
+    /* 스킬영역 */
+    .work {
+        width: 75%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .work>.ai,
+    .ps,
+    .cs,
+    .pr,
+    .dg {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .work img {
+        max-width: 40%;
+        height: auto;
+    }
+
+    .bb {
+        width: 75%;
+    }
+
+    .button-next,
+    .button-prev {
+        position: absolute;
+        width: 1.6rem;
+        height: 1.6rem;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* 비디오 오른쪽버튼 */
+    .button-next {
+        top: 55%;
+        right: -40px;
+        border-top: 0.8rem solid transparent;
+        border-bottom: 0.8rem solid transparent;
+        border-left: 0.8rem solid #789;
+        transform: translateY(-50%);
+    }
+
+    /* 비디오 왼쪽버튼 */
+    .button-prev {
+        top: 50%;
+        left: -40px;
+        border-top: 0.8rem solid transparent;
+        border-bottom: 0.8rem solid transparent;
+        border-right: 0.8rem solid #789;
+
+    }
+
+    .close-btn {
+        font-size: 20px;
+    }
+
+    .pho-inner {
+        width: 100%;
+        margin: 0 auto;
+    
+    }
+
+    .pho-inner img {
+        width: 11rem;
+        height: 11rem;
+        padding: 3px;
+        margin-left: 21%;
+
+    }
+
+
+    .gotop {
+        font-size: 2rem;
+        bottom: 5rem;
+        right: 2rem;
+    }
+
+    .foot-img img {
+        max-width: 90%;
+        padding: 1rem 0;
+        text-align: center;
+    }
+
+    /* 스킬글씨 없애기 */
+
+    .container.work {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container.work div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+        border: none;
+        background: none;
+        padding: 0;
+        width: calc(33.33% - 50px);
+        box-sizing: border-box;
+    }
+
+    .container.work h5{
+        font-size: 9px;
+
+    }
+
+    .container.work div h4,
+    .container.work div p {
+        display: none;
+    }
+
+    .container.work div img {
+        width: 100%;
+        max-width: 150px;
+    }
+
+    
+    .txtt h3 {
+        font-size: 2rem;
+    }
+
+    .txtt h6{
+        font-size: 0.8rem;
+        margin-left: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width : 375px) {
+
+    h1 {
+        font-size: 3.8rem;
+        padding-left: 5%;
+    }
+
+    h1:nth-child(2) {
+        padding-top: 0%;
+        padding-left: 25%;
+    }
+
+    h2 {
+        font-size: 2rem;
+        padding-left: 38%;
+    }
+
+
+    .pho-inner {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .pho-inner img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 18%;
+
+    }
+
+    .txtt h3 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (max-width : 350px){
+    .pho-inner img {
+        width: 10rem;
+        height: 10rem;
+        margin-left: 10%;
+
+    }
+}
